@@ -1196,5 +1196,920 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="$npab" value="process.abort();&#10;$END$" shortcut="ENTER" description="(n)ode (p)rocess (ab)ort" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$npar" value="process.argv$END$" shortcut="ENTER" description="(n)ode (p)rocess (ar)gv" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$npch" value="process.chdir('$foo$');&#10;$END$" shortcut="ENTER" description="(n)ode (p)rocess (ch)dir" toReformat="true" toShortenFQNames="true">
+    <variable name="foo" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$npcw" value="process.cwd();&#10;$END$" shortcut="ENTER" description="(n)ode (p)rocess (cw)d" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$npe" value="process.exit($foo$);&#10;$END$" shortcut="ENTER" description="(n)ode (p)rocess (e)xit" toReformat="true" toShortenFQNames="true">
+    <variable name="foo" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$npep" value="process.execPath$END$" shortcut="ENTER" description="(n)ode (p)rocess (e)xec (p)ath" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$npk" value="process.kill(process.pid, '$foo$');&#10;$END$" shortcut="ENTER" description="(n)ode (p)rocess (k)ill" toReformat="true" toShortenFQNames="true">
+    <variable name="foo" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$npnt" value="process.nextTick(function() {&#10;    $END$&#10;});&#10;" shortcut="ENTER" description="(n)ode (p)rocess (n)ext (t)ick" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$npoe" value="process.on('exit', function(code) {&#10;    $END$&#10;});&#10;" shortcut="ENTER" description="(n)ode (p)rocess (o)n (e)xit" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$npp" value="process.pid$END$" shortcut="ENTER" description="(n)ode (p)rocess (p)id" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$npstdew" value="process.stderr.write($foo$);&#10;$END$" shortcut="ENTER" description="(n)ode (p)rocess (stde)rr (w)rite" toReformat="true" toShortenFQNames="true">
+    <variable name="foo" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$npstdioe" value="process.stdin.on('end', function() {&#10;    $END$&#10;});&#10;" shortcut="ENTER" description="(n)ode (p)rocess (stdi)n (o)n (e)nd" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$npstdior" value="process.stdin.on('readable', function(chunk) {&#10;    $END$&#10;});&#10;" shortcut="ENTER" description="(n)ode (p)rocess (stdi)n (o)n (r)eadable" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$npstdirea" value="process.stdin.read()$END$" shortcut="ENTER" description="(n)ode (p)rocess (stdi)n (rea)d" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$npstdires" value="process.stdin.resume();&#10;$END$" shortcut="ENTER" description="(n)ode (p)rocess (stdi)n (res)ume" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$npstdise" value="process.stdin.setEncoding('$foo$');&#10;$END$" shortcut="ENTER" description="(n)ode (p)rocess (stdi)n (s)et (e)ncoding" toReformat="true" toShortenFQNames="true">
+    <variable name="foo" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$npstdow" value="process.stdout.write($foo$);&#10;$END$" shortcut="ENTER" description="(n)ode (p)rocess (stdo)ut (w)rite" toReformat="true" toShortenFQNames="true">
+    <variable name="foo" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nr" value="var $foo$ = require('$bar$');&#10;$END$" shortcut="ENTER" description="(n)ode (r)equire" toReformat="true" toShortenFQNames="true">
+    <variable name="foo" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="bar" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nrb" value="var buffer = require('buffer');&#10;$END$" shortcut="ENTER" description="(n)ode (r)equire (b)uffer" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nrcl" value="var cluster = require('cluster');&#10;$END$" shortcut="ENTER" description="(n)ode (r)equire (cl)uster" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nrcp" value="var childProcess = require('child_process');&#10;$END$" shortcut="ENTER" description="(n)ode (r)equire (c)hild (p)rocess" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nrcr" value="var crypto = require('crypto');&#10;$END$" shortcut="ENTER" description="(n)ode (r)equire (cr)ypto" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nrdg" value="var dgram = require('dgram');&#10;$END$" shortcut="ENTER" description="(n)ode (r)equire (dg)ram" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nrdn" value="var dgram = require('dgram');&#10;$END$" shortcut="ENTER" description="(n)ode (r)equire (dn)s" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nre" value="var events = require('events');&#10;$END$" shortcut="ENTER" description="(n)ode (r)equire (e)vents" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nrf" value="var fs = require('fs');&#10;$END$" shortcut="ENTER" description="(n)ode (r)equire (f)s" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nrhttp" value="var http = require('http');&#10;$END$" shortcut="ENTER" description="(n)ode (r)equire (http)" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nrhttps" value="var https = require('https');&#10;$END$" shortcut="ENTER" description="(n)ode (r)equire (https)" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nrn" value="var net = require('net');&#10;$END$" shortcut="ENTER" description="(n)ode (r)equire (n)et" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nro" value="var os = require('os');&#10;$END$" shortcut="ENTER" description="(n)ode (r)equire (o)s" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nrp" value="var path = require('path');&#10;$END$" shortcut="ENTER" description="(n)ode (r)equire (p)ath" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nrr" value="var readline = require('readline');&#10;$END$" shortcut="ENTER" description="(n)ode (r)equire (r)eadline" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nrs" value="var stream = require('stream');&#10;$END$" shortcut="ENTER" description="(n)ode (r)equire (s)tream" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nrsd" value="var stringDecoder = require('string_decoder');&#10;$END$" shortcut="ENTER" description="(n)ode (r)equire (s)tring (d)ecoder" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nrt" value="var tls = require('tls');&#10;$END$" shortcut="ENTER" description="(n)ode (r)equire (t)ls" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nrur" value="var url = require('url');&#10;$END$" shortcut="ENTER" description="(n)ode (r)equire (ur)l" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nrut" value="var util = require('util');&#10;$END$" shortcut="ENTER" description="(n)ode (r)equire (ut)il" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nrv" value="var vm = require('vm');&#10;$END$" shortcut="ENTER" description="(n)ode (r)equire (v)m" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nrz" value="var zlib = require('zlib');&#10;$END$" shortcut="ENTER" description="(n)ode (r)equire (z)lib" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nuf" value="util.format('$foo$', $bar$)$END$" shortcut="ENTER" description="(n)ode (u)til (f)ormat" toReformat="true" toShortenFQNames="true">
+    <variable name="foo" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="bar" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nui" value="util.inherits($foo$, $bar$);&#10;$END$" shortcut="ENTER" description="(n)ode (u)til (i)nherits" toReformat="true" toShortenFQNames="true">
+    <variable name="foo" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="bar" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nuia" value="util.isArray($foo$)$END$" shortcut="ENTER" description="(n)ode (u)til (i)s (a)rray" toReformat="true" toShortenFQNames="true">
+    <variable name="foo" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nuid" value="util.isDate($foo$)$END$" shortcut="ENTER" description="(n)ode (u)til (i)s (d)ate" toReformat="true" toShortenFQNames="true">
+    <variable name="foo" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nuie" value="util.isError($foo$)$END$" shortcut="ENTER" description="(n)ode (u)til (i)s (e)rror" toReformat="true" toShortenFQNames="true">
+    <variable name="foo" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="$nuire" value="util.isRegExp($foo$)$END$" shortcut="ENTER" description="(n)ode (u)til (i)s (r)egular (e)xpression" toReformat="true" toShortenFQNames="true">
+    <variable name="foo" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
 </templateSet>
-
