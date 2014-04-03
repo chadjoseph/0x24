@@ -18,7 +18,7 @@ Live templates where basic naming conventions result in a duplicate name include
 
 Live templates that include functions from multiple frameworks begin with the naming convention used for the primary template set followed by the naming convention for the secondary set, omitting the dollar sign for the secondary set (e.g. the live template name for a Jasmine beforeEach function with an Angular inject function is $jbengi).
 
-Sample
+Samples
 ------
 
 ### Jasmine
@@ -29,6 +29,25 @@ Sample
 describe('$foo$', function() {
     $END$
 });
+```
+
+### Angular
+
+`$ngsw` (a(ng)ular (s)cope (w)atch)
+
+```JavaScript
+$scope.$watch('$foo$', function(newValue, oldValue) {
+    $END$
+});
+```
+
+### Node
+
+`$nrcr` ((n)ode (r)equire (cr)ypto)
+
+```JavaScript
+var crypto = require('crypto');
+$END$
 ```
 
 *The 0x24 live templates use the enter key for expansion.*
